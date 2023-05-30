@@ -140,7 +140,6 @@ main {
         width: 90%;
         font-size: 28px;
         overflow: scroll;
-        -webkit-overflow-scrolling: touch;
     } 
     
     .contenedor {
