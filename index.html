@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
+    <title>Text Encrypter</title>
+</head>
+<body>
+    <div class="contenedor">
+    <header>
+        <img src="./imgs/Logo.png" alt="alura logo" class="logo" height="48" width="120" />
+    </header>
+    <main>
+        <section>
+            <textarea cols="30" rows="10" class="text-area" placeholder="Type your text in here."></textarea>
+            <div>
+                <h6 class="consigna">Only lowercase letters and no accents.</h6>
+            </div>
+            <div class="botones">
+                <button class="encriptar-boton" onclick="Encriptar()">Encrypt</button>
+                <button class="desencriptar-boton" onclick="Desencriptar()">Decrypt</button>
+            </div>
+        </section>
+        <section>
+            <textarea cols="20" rows="10" class="mensaje" placeholder="No message was found."></textarea>
+            <div>
+                <button class="copiar-boton" onclick="copiar()">Copy</button>
+            </div>
+        </section>
+    </div>
+    </main>
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/1bf2420094.js" crossorigin="anonymous"></script>
+    <footer>
+        <ul class="credits-list">
+            <il><p class="credits">© Camila González - Challenge Oracle One - G5</p></il>
+            <il><a href="https://www.linkedin.com/in/camila-rocío-gonzález-b257b9210/" target="_blank"><i class="fa-brands fa-linkedin" style="color: #0a3871;"></i></a></il>
+            <il><a href="https://github.com/c-caam" target="_blank"><i class="fa-brands fa-github" style="color: #0a3871;"></i></a></il>
+        </ul>
+    </footer>
+</body>
+</html>
