@@ -48,7 +48,7 @@ main {
     margin-left: 98px;
     margin-top: 20px;
     padding-left: 20px;
-    position: fixed;
+    position: absolute;
 }
 
 .mensaje::placeholder {
@@ -139,6 +139,8 @@ main {
         padding: 0;
         width: 90%;
         font-size: 28px;
+        overflow: scroll;
+        -webkit-overflow-scrolling: touch;
     } 
     
     .contenedor {
@@ -200,18 +202,19 @@ main {
     }
 
     .credits-list {
-        margin-top: 440px;
-        margin-left: 70px;
+        margin-top: 445px;
+        width: 305px;
+        align-items: center;
     }
 
     .credits {
         font-size: 0.35em;
         margin-left: 6px;
-        
     }
 
     .credits-list > il {
         width: 100%;
+        text-align: center;
     }
 
     .credits-list > il > a > i {
