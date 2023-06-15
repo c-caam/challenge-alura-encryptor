@@ -114,6 +114,10 @@ main {
     font-size: 0.6em;
 }
 
+.desencriptar-boton:hover, .encriptar-boton:hover, .copiar-boton:hover {
+	box-shadow: 4px 4px 4px #CCC;
+}
+
 .credits {
     font-size: 0.4em;
     color: #495057;
